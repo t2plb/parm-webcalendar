@@ -1,0 +1,22 @@
+{
+  "name": "parm-webcalendar",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/sikelio/parm-webcalendar",
+  "author": "t2plb",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
